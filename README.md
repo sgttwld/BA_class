@@ -53,3 +53,8 @@ par.iterate(U,precision=1e-10)                # precision for the stopping condi
 par.iterate(U,pw=np.array([]))                # specification of the world state distribution
 par.iterate(U,p0=np.array([]))                # fixed prior for the prior restriction
 ```
+
+### Other methods
+```python
+BA.show(arr)                                  # plots the array arr (1d: barplot, 2d: pcolor)
+```
