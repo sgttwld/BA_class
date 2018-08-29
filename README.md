@@ -9,7 +9,7 @@ In order to do a one-step rate distortion iteration, we write
 RD = BA.Solver([N,K],beta=[1.0])
 RD.iterate(U)
 ```
-where `N` and `K` are the dimensions of the world and action space, respectively, and `U` is the utility function in form of an `N`-times-`K` matrix (`numpy` array of shape `(N,K)`).
+where `N` and `K` are the dimensions of the world and action space, respectively, and `U` is the utility function in form of an `N`times`K` matrix (`numpy` array of shape `(N,K)`).
 
 For a two-step iteration with intermediate dimension `M` we write
 ```python
