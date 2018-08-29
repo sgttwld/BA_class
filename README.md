@@ -11,15 +11,15 @@ RD.iterate(U)
 ```
 where `N` and `K` are the dimensions of the world and action space, respectively, and `U` is the utility function in form of an `N`times`K` matrix (`numpy` array of shape `(N,K)`). For a two-step iteration with intermediate dimension `M` we write
 ```python
-ser = BA.Solver([N,M,K],beta=[12.0,10.0],BAtype='ser')    # serial case
+ser = BA.Solver([N,M,K],beta=[12.0,10.0],BAtype='ser')            # serial 2-step case
 ser.iterate(U)
 
-par = BA.Solver([N,M,K],beta=[12.0,10.0],BAtype='par')    # parallel case
+par = BA.Solver([N,M,K],beta=[12.0,10.0],BAtype='par')            # parallel 2-step case
 par.iterate(U)
 ```
 and for higher depth we just add more intermediate dimension and betas:
 ```python
-par3 = BA.Solver([N,M1,M2,K],beta=[12.0,10.0,5.0],BAtype='par')    # parallel case
+par3 = BA.Solver([N,M1,M2,K],beta=[12.0,10.0,5.0],BAtype='par')   # parallel 3-step case
 par3.iterate(U)
 ```
 
