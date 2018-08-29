@@ -20,7 +20,7 @@ par.iterate(U)
 and for higher depth we just add more intermediate dimension and betas:
 ```python
 par3 = BA.Solver([N,M1,M2,K],beta=[12.0,10.0,5.0],BAtype='par')    # parallel case
-par.iterate(U)
+par3.iterate(U)
 ```
 
 
