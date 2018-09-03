@@ -24,7 +24,7 @@ par3.iterate(U)
 ```
 
 
-See also [here](https://github.com/sgttwld/blahut-arimoto) for a different implementation of some of the cases included here based on [pr_func](https://github.com/sgttwld/pr_func).
+See also [here](https://github.com/sgttwld/blahut-arimoto) for a different implementation of some of the cases included here based on [pr_func](https://github.com/sgttwld/pr_func), and [here](https://github.com/sgttwld/BMA) for a modular implementation of Blahut-Arimoto type algorithms for general bounded rational multi-agent architectures based on [Gottwald, Braun. Systems of bounded rational agents with information-theoretic constraints](https://doi.).
 
 
 ## Overview
